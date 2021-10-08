@@ -1,0 +1,79 @@
+.backgrounds 
+{
+    height: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    border-image: url(pattern.png);
+    border-image-slice: 27;
+    border-width: 20px;
+    border-style: solid;
+    border-image-width: 20px;
+    border-image-repeat: stretch repeat;
+
+    background-color: rgb(161, 161, 159);
+
+    background-clip: padding-box;
+
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body
+{
+    background: linear-gradient(-45deg, rgb(55, 177, 233) 50%, rgb(154, 250, 170) 90%);
+    background-attachment: fixed;
+}
+
+table
+{
+    height: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+thead
+{
+    color: white;
+    font-family: Arial;
+
+    background: linear-gradient(-45deg, rgb(62, 134, 182) 50%, rgb(78, 238, 211) 90%);
+    width: auto;
+}
+
+tbody, tfoot
+{
+    background: linear-gradient(-45deg, rgb(160, 164, 221) 60%, rgb(171, 196, 192) 90%);
+    background-attachment: fixed;
+
+    font-family:Verdana;
+    font-size: 13px;
+
+    text-align: justify;
+}
+
+a:link
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;   
+}
+
+a:hover
+{
+    background-color: navy;
+    color: white;
+}
+
+a:visited
+{
+    background-color: navy;
+    color: white;
+}
