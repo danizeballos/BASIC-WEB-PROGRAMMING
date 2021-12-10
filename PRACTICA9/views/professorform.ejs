@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>
-            Registro de Profesores
+            Registro Profesores
         </title>
         <meta charset="UTF-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -37,13 +37,9 @@
             })
         </script>
     </head>
-    <body style="background: black;">
+    <body>
         <div class="container" ng-app="ProfessorApp" ng-controller="ProfessorController">
-            <form style="color: white;">
-                <div class="text-center">
-                    <h2 style="color: red;">UNIVALLE</h2>
-                    <h1 style="color: white;">Registro de Profesores</h1>
-                </div>
+            <form>
                 <div>
                     <label for="txtFirstName">Nombre:</label>
                     <input id="txtFirstName" ng-model="professor.firstName" class="form-control">
@@ -70,7 +66,7 @@
                 </div>
             </form>
             <hr>
-            <table class="table table-dark table-stripped">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>
